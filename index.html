@@ -1,40 +1,46 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+    <link rel="stylesheet" type="text/css" href="styles/themes-block.css">
     <meta charset="UTF-8">
     <title>Главная</title>
 </head>
 <body>
-    <header>
-        <h1>POOOCHO</h1>
-        <pre>#     # ####### #     # #######  #####              #     # #     #  #####  ###  #####              ####### ####### ####### #       ### #     #  #####
-##   ## #       ##   ## #       #     #             ##   ## #     # #     #  #  #     #             #       #       #       #        #  ##    # #     #
-# # # # #       # # # # #       #                   # # # # #     # #        #  #                   #       #       #       #        #  # #   # #
-#  #  # #####   #  #  # #####    #####     #####    #  #  # #     #  #####   #  #          #####    #####   #####   #####   #        #  #  #  # #  ####
-#     # #       #     # #             #             #     # #     #       #  #  #                   #       #       #       #        #  #   # # #     #
-#     # #       #     # #       #     #             #     # #     # #     #  #  #     #             #       #       #       #        #  #    ## #     #
-#     # ####### #     # #######  #####              #     #  #####   #####  ###  #####              #       ####### ####### ####### ### #     #  #####  </pre>
+    <header class="header">
+        <img src="images/logo.png" class="logo">
+        <a href="index.html" class="title">
+            POOOCHO
+        </a>
     </header>
 
-    <main>
-        <p>Сайт создан, чтобы помочь людям делиться мемами, музыкой и просто обсуждать что-то</p>
-        <sub>Если Вы хотите, чтобы жизнь улыбалась Вам, подарите ей сначала свое <b>хорошее настроение.</b></sub>
-        <pre>
-            <code>
-                public static boolean isGoodMood(){
-                    return true;
-                }
-            </code>
-        </pre>
+    <main class="main">
+        <div class="main-content">
+            <h1 class="content-title">Что вам интересно?</h1>
+            <div class="themes-block">
+                <div class="themes-block__theme">
+                    <img src="images/music-image.jpg" alt="">
+                    <div class="themes-block__theme-title">Музыка</div>
+                </div>
+                <div class="themes-block__theme">
+                    <img src="images/sport-image.jpg" alt="">
+                    <div class="themes-block__theme-title">Спорт</div>
+                </div>
+            </div>
+        </div>
 
+        <nav class="navigation">
+            <a href="index.html" class="navigation__elem">
+                Главная
+            </a>
+            <a href="about.html" class="navigation__elem">
+                О сайте
+            </a>
+        </nav>
     </main>
 
     <footer>
-        Мои контакты:
-        <ul>
-            <li>mishakazanin@gmail.com</li>
-            <li>88005553535</li>
-        </ul>
+
     </footer>
 </body>
 </html>

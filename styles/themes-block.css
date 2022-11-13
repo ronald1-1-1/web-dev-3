@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Noto+Sans:wght@300&display=swap');
+
+.themes-block {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.themes-block__theme {
+    width: 30%;
+
+    margin: 30px;
+
+    box-shadow:  0px 0px 25px 4px rgba(0, 0, 0, 0.26);
+}
+
+.themes-block__theme img {
+    width: 100%;
+}
+
+.themes-block__theme-title {
+    padding: 10px;
+
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+
+    text-align: center;
+}
