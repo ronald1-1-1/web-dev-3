@@ -95,9 +95,6 @@ h1.content-title {
 }
 
 @media screen and (max-width: 800px) {
-    /*.navigation{*/
-    /*    display: none;*/
-    /*}*/
 
     main.main {
         flex-direction: column-reverse;
