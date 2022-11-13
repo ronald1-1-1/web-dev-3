@@ -6,8 +6,10 @@
 }
 
 .themes-block__theme {
-    width: 30%;
+    text-decoration: none;
+    color: #696565;
 
+    width: 30%;
     margin: 30px;
 
     box-shadow:  0px 0px 25px 4px rgba(0, 0, 0, 0.26);
@@ -25,4 +27,11 @@
     font-size: 20px;
 
     text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+    .themes-block__theme{
+        width: 100%;
+        margin: 20px 0 0 20px;
+    }
 }
