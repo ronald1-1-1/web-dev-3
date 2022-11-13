@@ -26,3 +26,10 @@
 
     text-align: center;
 }
+
+@media screen and (max-width: 800px) {
+    .themes-block__theme{
+        width: 100%;
+        margin: 20px 0 0 20px;
+    }
+}
