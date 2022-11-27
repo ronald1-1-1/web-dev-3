@@ -11,9 +11,11 @@ function ready() {
         console.log("aaaaaaaaa")
         document.getElementById("index-nav").classList.add("navigation__elem-selected")
     }
-
     if (document.location.href.includes("/about.html")){
         document.getElementById("about-nav").classList.add("navigation__elem-selected")
+    }
+    if (document.location.href.includes("/constructor.html")){
+        document.getElementById("constructor-nav").classList.add("navigation__elem-selected")
     }
 }
 
