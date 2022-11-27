@@ -1,11 +1,13 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
     <link rel="stylesheet" type="text/css" href="styles/main.css">
-    <link rel="stylesheet" type="text/css" href="styles/themes-block.css">
+    <link rel="stylesheet" type="text/css" href="styles/constructor.css">
     <script type="text/javascript" src="scripts/main.js"></script>
+    <script type="text/javascript" src="scripts/constructor.js"></script>
+
     <meta charset="UTF-8">
-    <title>Главная</title>
+    <title>Запись идей</title>
 </head>
 <body>
     <header class="header">
@@ -17,16 +19,13 @@
 
     <main class="main">
         <div class="main-content">
-            <h1 class="content-title">Что вам интересно?</h1>
-            <div class="themes-block">
-                <a class="themes-block__theme">
-                    <img src="images/music-image.jpg" alt="">
-                    <div class="themes-block__theme-title">Музыка</div>
-                </a>
-                <a href="sport.html" class="themes-block__theme">
-                    <img src="images/sport-image.jpg" alt="">
-                    <div class="themes-block__theme-title">Спорт</div>
-                </a>
+            <h1 class="content-title">Что вы узнали интересного? Используйте этот дневник, чтобы не забыть!</h1>
+            <form class="diary-form" id="diary-form">
+                <input type="text" id="interest-field" class="diary-form__interest-field">
+                <input type="submit" value="Записать" class="diary-form__submit">
+            </form>
+            <div class="interest-container" id="interest-container">
+
             </div>
         </div>
 
