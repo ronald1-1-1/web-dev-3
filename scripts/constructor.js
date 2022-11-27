@@ -1,4 +1,4 @@
-if (localStorage.getItem("interests") === undefined) {
+if (localStorage.getItem("interests") === null) {
     localStorage.setItem("interests", JSON.stringify([]))
 }
 const interests = JSON.parse(localStorage.getItem("interests"))
