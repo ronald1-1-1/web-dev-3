@@ -105,6 +105,15 @@ footer {
     padding: 20px 300px 20px 300px;
 }
 
+img.preloader {
+    width: 100px;
+    height: 100px;
+    align-self: center;
+}
+
+.hidden {
+    display: none;
+}
 @media screen and (max-width: 800px) {
 
     main.main {
